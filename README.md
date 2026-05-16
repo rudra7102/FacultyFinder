@@ -16,6 +16,7 @@ computer vision professors
 Instead of relying only on exact keyword matching, the system uses semantic embeddings to understand the meaning behind user queries and retrieve the most relevant faculty members.
 
 Features
+
 Semantic faculty search using Sentence Transformers
 Natural language query understanding
 Faculty profile scraping and preprocessing
@@ -29,11 +30,13 @@ Teaching Domains
 Biography
 Contact Information
 Faculty Profile Links
+
 Tech Stack
 Frontend
 HTML
 CSS
 JavaScript
+
 Backend
 FastAPI
 Python
@@ -41,11 +44,13 @@ AI / NLP
 Sentence Transformers
 all-MiniLM-L6-v2
 Cosine Similarity
+
 Data Processing
 Pandas
 NumPy
 BeautifulSoup
 Requests
+
 Project Architecture
 User Query
      ↓
@@ -58,6 +63,7 @@ Semantic Embedding Search
 Cosine Similarity Matching
      ↓
 Top Relevant Faculty Results
+
 Project Structure
 FacultyFinder/
 │
@@ -85,6 +91,7 @@ FacultyFinder/
 ├── requirements.txt
 ├── runtime.txt
 └── README.md
+
 How It Works
 1. Faculty Scraping
 
@@ -172,6 +179,7 @@ any local static server
 Frontend typically runs at:
 
 http://127.0.0.1:5500
+
 Example Queries
 machine learning
 cybersecurity
@@ -191,6 +199,7 @@ Cosine Similarity Search
 Top Matching Faculty
     ↓
 Frontend Display
+
 Key Highlights
 Supports semantic understanding of queries
 Handles research-domain based retrieval
