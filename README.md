@@ -161,6 +161,7 @@ Generate Embeddings
 Run the following command to generate faculty embeddings:
 
 python embeddings/generate_embeddings.py
+
 Run Backend Server
 uvicorn api.main:app --reload
 
@@ -197,15 +198,7 @@ mathematics professors
 
 Sample Search Workflow
 
-User Query
-    ↓
-Query Embedding
-    ↓
-Cosine Similarity Search
-    ↓
-Top Matching Faculty
-    ↓
-Frontend Display
+User Query -> Query Embedding -> Cosine Similarity Search -> Top Matching Faculty -> Frontend Display
 
 Key Highlights
 
