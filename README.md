@@ -191,13 +191,13 @@ Frontend typically runs at:
 http://127.0.0.1:5500
 
 Example Queries
-machine learning
-cybersecurity
-deep learning faculty
-professors working on NLP
-embedded systems
-computer vision researchers
-blockchain faculty
+machine learning,
+cybersecurity,
+deep learning faculty,
+professors working on NLP,
+embedded systems,
+computer vision researchers,
+blockchain faculty,
 mathematics professors
 
 Sample Search Workflow
