@@ -2,9 +2,9 @@ fastapi
 uvicorn
 pandas
 numpy
-sentence-transformers
 scikit-learn
-torch
+sentence-transformers
+torch==2.2.2
 transformers
 beautifulsoup4
 requests
