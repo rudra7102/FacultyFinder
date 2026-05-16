@@ -145,8 +145,10 @@ The system returns the most relevant faculty profiles based on semantic meaning 
 Installation Guide
 1. Clone Repository
 git clone https://github.com/rudra7102/FacultyFinder.git
+
 2. Navigate to Project Folder
 cd FacultyFinder
+
 3. Create Virtual Environment
 Windows
 python -m venv venv
@@ -154,8 +156,10 @@ venv\Scripts\activate
 Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
+
 4. Install Dependencies
 pip install -r requirements.txt
+
 Generate Embeddings
 
 Run the following command to generate faculty embeddings:
@@ -202,9 +206,9 @@ User Query -> Query Embedding -> Cosine Similarity Search -> Top Matching Facult
 
 Key Highlights
 
-Supports semantic understanding of queries
-Handles research-domain based retrieval
-Works with abbreviated and natural language inputs
-Retrieves top relevant faculty profiles
-Lightweight and modular project structure
-Easy to extend for university-scale datasets
+1) Supports semantic understanding of queries
+2) Handles research-domain based retrieval
+3) Works with abbreviated and natural language inputs
+4) Retrieves top relevant faculty profiles
+5) Lightweight and modular project structure
+6) Easy to extend for university-scale datasets
