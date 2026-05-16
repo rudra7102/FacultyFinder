@@ -4,7 +4,7 @@ pandas
 numpy
 scikit-learn
 sentence-transformers
-torch==2.2.2
+torch
 transformers
 beautifulsoup4
 requests
