@@ -89,7 +89,8 @@ FacultyFinder/
 │
 ├── requirements.txt
 ├── runtime.txt
-└── README.md
+└── README.mds
+
 
 How It Works
 1. Faculty Scraping
@@ -144,10 +145,8 @@ The system returns the most relevant faculty profiles based on semantic meaning 
 Installation Guide
 1. Clone Repository
 git clone https://github.com/rudra7102/FacultyFinder.git
-
 2. Navigate to Project Folder
 cd FacultyFinder
-
 3. Create Virtual Environment
 Windows
 python -m venv venv
@@ -155,7 +154,6 @@ venv\Scripts\activate
 Mac/Linux
 python3 -m venv venv
 source venv/bin/activate
-
 4. Install Dependencies
 pip install -r requirements.txt
 Generate Embeddings
@@ -184,7 +182,6 @@ any local static server
 Frontend typically runs at:
 
 http://127.0.0.1:5500
-
 Example Queries
 machine learning
 cybersecurity
@@ -194,8 +191,8 @@ embedded systems
 computer vision researchers
 blockchain faculty
 mathematics professors
-
 Sample Search Workflow
+
 User Query
     ↓
 Query Embedding
