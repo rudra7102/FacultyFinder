@@ -6,11 +6,11 @@ Overview
 
 FacultyFinder allows users to search faculty profiles using natural language queries such as:
 
-machine learning
-professors working on cybersecurity
-NLP faculty
-deep learning researchers
-embedded systems
+machine learning,
+professors working on cybersecurity,
+NLP faculty,
+deep learning researchers,
+embedded systems,
 computer vision professors
 
 Instead of relying only on exact keyword matching, the system uses semantic embeddings to understand the meaning behind user queries and retrieve the most relevant faculty members.
@@ -167,6 +167,8 @@ uvicorn api.main:app --reload
 Backend runs at:
 
 http://127.0.0.1:8000
+
+
 Run Frontend
 
 Open:
@@ -182,6 +184,7 @@ any local static server
 Frontend typically runs at:
 
 http://127.0.0.1:5500
+
 Example Queries
 machine learning
 cybersecurity
@@ -191,6 +194,7 @@ embedded systems
 computer vision researchers
 blockchain faculty
 mathematics professors
+
 Sample Search Workflow
 
 User Query
@@ -204,6 +208,7 @@ Top Matching Faculty
 Frontend Display
 
 Key Highlights
+
 Supports semantic understanding of queries
 Handles research-domain based retrieval
 Works with abbreviated and natural language inputs
